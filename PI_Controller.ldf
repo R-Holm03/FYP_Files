@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="PI_Controller" device="LCMXO3LF-9400C-5BG484C" default_implementation="IM1">
+    <Options/>
+    <Implementation title="IM1" dir="IM1" description="IM1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="Top_Level"/>
+        <Source name="Top_Level.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Top_Level"/>
+        </Source>
+        <Source name="PWM_Gen.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="PI.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ADC_Com.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="IM1/IM1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="PI_Controller.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="PI_Controller1.sty"/>
+</BaliProject>
