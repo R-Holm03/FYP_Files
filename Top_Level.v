@@ -6,9 +6,6 @@ module Top_Level (
 	output WR, 
 	output duty_test
 );
-
-	// NEED TO SOLVE ISSUE ABOUT STARTING IN IDLE MODE AND SENDING CONVERT HIGH SOME HOW TO INITIATE COMMUNICATION 
-	// could have an enable pin that is attached to a 3.3V supply or something
 	
 	parameter FREQ = 10'd800;
 	parameter CURRENT = 16'd20;
